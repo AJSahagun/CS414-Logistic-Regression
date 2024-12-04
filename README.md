@@ -40,8 +40,9 @@ This Python script performs a logistic regression analysis to predict student pl
    - Intercept (`β0`) and Coefficient (`β1`)
    - Model Accuracy  
     - Confusion Matrix  
-    - Classification Report 
-2. **Display First 20 CGPA  vs Value Probability **
+    - Classification Report
+    - 
+   2. **Display First 20 CGPA  vs Value Probability**
    -  Shows a table comparing the actual and predicted probabilities for the **first 20 samples in the test set**, specifically:  
   - `CGPA (X)`: The input values.  
   - `Placement (Y)`: Actual labels.  
