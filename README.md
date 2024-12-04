@@ -79,25 +79,27 @@ This Python script performs a logistic regression analysis to predict student pl
    2. Table of Probability value (π) using Logistic Regression Model
    3. Plot of Logistic Regression Model 
    4. Exit
-
+  
+      
    - Enter the corresponding number to perform the desired action.
    - Follow the instructions displayed on the screen for each option
 
 ----
 
 The **20 Random samples** from the test set are used for the prediction comparison table.   
-
-
 ---
-
-You can install these libraries using `pip`:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-
 #### Notes
 
 - Ensure the dataset is clean and appropriately formatted before running the script.  
 - Adjust hyperparameters or add more features if needed to improve model performance. 
+
+You can install these libraries using `pip`:
+
+```bash
+pip install pandas numpy matplotlib  scikit-learn
+
+
+
+
 
   
