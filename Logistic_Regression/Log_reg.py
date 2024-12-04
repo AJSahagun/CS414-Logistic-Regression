@@ -59,7 +59,7 @@ def logistic_regression_analysis():
         print("\nClassification Report:")
         print(report)
     
-    # Function to display first 20 actual vs predicted values
+    # Function to display Table of Probability value (π) using Logistic Regression Mode
     def display_comparison():
         output_table = pd.DataFrame({
             'CGPS (X)': X_test['cgpa'],
@@ -71,7 +71,7 @@ def logistic_regression_analysis():
         print("\n--- Table: Logistic Regression Predictions Model---")
         print(output_table.head(20).to_string(index=False))
     
-    # Function to plot Actual vs Predicted probabilities
+    # Function to Plot of Logistic Regression Model
     def plot_actual_vs_predicted_probabilities():
         plt.figure(figsize=(8, 6))
         plt.scatter(X_test['cgpa'], y_test, color='blue', label='CGPA')
