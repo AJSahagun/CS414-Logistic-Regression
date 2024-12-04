@@ -14,8 +14,7 @@ This Python script performs a logistic regression analysis to predict student pl
 - Required Python Libraries:  
   - `pandas`  
   - `numpy`  
-  - `matplotlib`  
-  - `seaborn`  
+  - `matplotlib`   
   - `scikit-learn`  
   - `os`  
 
@@ -33,7 +32,7 @@ This Python script performs a logistic regression analysis to predict student pl
 
 #### Functionalities
 
-1. **Display Analysis**
+  1. **Display Analysis**
    - Display the Following:
    - Summation  of  CGPA Test values (`∑X`)
    - Summation of Placement Test values (`∑Y`)
@@ -42,14 +41,14 @@ This Python script performs a logistic regression analysis to predict student pl
     - Confusion Matrix  
     - Classification Report
     - 
-   2. **Display First 20 CGPA  vs Value Probability**
-   -  Shows a table comparing the actual and predicted probabilities for the **first 20 samples in the test set**, specifically:  
-  - `CGPA (X)`: The input values.  
-  - `Placement (Y)`: Actual labels.  
-  - `Logistic Regression (π)`: Predicted probabilities.  
+   2. **Table of Probability value (π) using Logistic Regression Model**
+    -  Shows a table comparing the actual and predicted probabilities for the **first 20 samples in the test set**, specifically:  
+    - `CGPA (X)`: The input values.  
+     - `Placement (Y)`: Actual labels.  
+     - `Logistic Regression (π)`: Predicted probabilities.  
 
-3. **Plot Actual vs Predicted Probabilities**  
-- Scatter plot of CGPA vs. Placement with a logistic regression curve:  
+  3. **Plot of Logistic Regression Model**  
+  - Scatter plot of CGPA vs. Placement with a logistic regression curve:  
   - Blue points represent actual placements.  
   - Red points represent predicted probabilities.  
 
@@ -77,20 +76,24 @@ This Python script performs a logistic regression analysis to predict student pl
 
    Choose an option:
    1. Display Analysis  
-   2. Display First 20 Actual vs Predicted  
-   3. Plot Actual vs Predicted Probabilities  
-   4. Plot Confusion Matrix  
-   5. Exit
+   2. Table of Probability value (π) using Logistic Regression Model
+   3. Plot of Logistic Regression Model 
+   4. Exit
 
    - Enter the corresponding number to perform the desired action.
    - Follow the instructions displayed on the screen for each option
 
 ----
 
-The **first 20 samples** from the test set are used for the prediction comparison table.   
+The **20 Random samples** from the test set are used for the prediction comparison table.   
 
 
 ---
+
+You can install these libraries using `pip`:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
 
 #### Notes
 
