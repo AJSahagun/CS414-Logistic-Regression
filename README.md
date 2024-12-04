@@ -29,9 +29,6 @@ This Python script performs a logistic regression analysis to predict student pl
      - `cgpa`: Feature (independent variable)  
      - `placement`: Target variable (binary: 0 or 1)  
 
-2. **Run the Script**  
-Execute the script in a Python environment. The menu interface will guide you through the available options.
-
 ---
 
 #### Functionalities
@@ -55,22 +52,37 @@ Execute the script in a Python environment. The menu interface will guide you th
   - Blue points represent actual placements.  
   - Red points represent predicted probabilities.  
 
-4. **Plot Confusion Matrix**  
-- Heatmap visualization of the confusion matrix.
-
 ---
 
 ### Usage Instructions
 
-- Run the script, and choose from the following menu options:  
+1. **Run the Script**  
+   Execute the script in a Python environment. The menu interface will guide you through the available options.  
+   
+   To run the script, follow these steps:
 
-Choose an option:
+   - Open a terminal (or command prompt) on your system.
+   - Navigate to the directory where your script is saved using the `cd` command. For example:
+     ```
+     cd path/to/your/script/directory
+     ```
+   - Run the script using Python by typing the following command:
+     ```
+     python script.py
+     ```
+     Replace `script.py` with the actual name of your script file if it's different.
+   
+   The script will execute and display the following menu options for you to choose from:
 
-1. Display Analysis  
-2. Display First 20 Actual vs Predicted  
-3. Plot Actual vs Predicted Probabilities  
-4. Plot Confusion Matrix  
-5. Exit
+   Choose an option:
+   1. Display Analysis  
+   2. Display First 20 Actual vs Predicted  
+   3. Plot Actual vs Predicted Probabilities  
+   4. Plot Confusion Matrix  
+   5. Exit
+
+   - Enter the corresponding number to perform the desired action.
+   - Follow the instructions displayed on the screen for each option
 
 ----
 
