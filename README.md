@@ -75,12 +75,12 @@ This Python script performs a logistic regression analysis to predict student pl
    The script will execute and display the following menu options for you to choose from:
 
    Choose an option:
-   1. Display Analysis  
-   2. Table of Probability value (π) using Logistic Regression Model
-   3. Plot of Logistic Regression Model 
-   4. Exit
-  
-      
+   
+ 1. Display Analysis  
+ 2. Table of Probability value (π) using Logistic Regression Model
+ 3. Plot of Logistic Regression Model 
+ 4. Exit
+        ---
    - Enter the corresponding number to perform the desired action.
    - Follow the instructions displayed on the screen for each option
 
