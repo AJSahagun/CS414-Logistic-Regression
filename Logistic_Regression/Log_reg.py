@@ -69,7 +69,7 @@ def logistic_regression_analysis():
         }).reset_index(drop=True)
 
 
-        print("\n--- Logistic Regression Predictions ---")
+        print("\n--- Table: Logistic Regression Predictions Model---")
         print(output_table.head(20).to_string(index=False))
     
     # Function to plot Actual vs Predicted probabilities
@@ -87,36 +87,25 @@ def logistic_regression_analysis():
         plt.legend()
         plt.grid(True)
         plt.show()
-   
-    # Function to plot Confusion Matrix
-    def plot_confusion_matrix():
-        plt.figure(figsize=(8, 6))
-        sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues', cbar=False)
-        plt.title('Confusion Matrix')
-        plt.xlabel('Predicted')
-        plt.ylabel('Actual')
-        plt.show()
     
     # Menu for user interaction
     menu_options = {
         '1': display_analysis,
         '2': display_comparison,
         '3': plot_actual_vs_predicted_probabilities,
-        '4': plot_confusion_matrix,
-        '5': lambda: print("Exiting...")
+        '4': lambda: print("Exiting...")
     }
     
     while True:
         print("\nChoose an option:")
         print("1. Display Analysis")
-        print("2. Display First 20 Actual vs Predicted")
-        print("3. Plot Actual vs Predicted Probabilities")
-        print("4. Plot Confusion Matrix")
-        print("5. Exit")
+        print("2. Table of Probability value (π) using Logistic Regression Model")
+        print("3. Plot of Logistic Regression Model")
+        print("4. Exit")
         
         choice = input("Enter the number of your choice: ")
         if choice in menu_options:
-            if choice == '5':  # Exit case
+            if choice == '4':  # Exit case
                 menu_options[choice]()
                 break
             else:
